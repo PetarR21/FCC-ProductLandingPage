@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', 'sans-serif';
+    background-color: #eee;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    z-index: 100;
+}
+
+.header .flex{
+    justify-content: space-between;
+}
+
+.header img{
+    width: 300px;
+}
+
+.header .navbar ul{
+    display: flex;
+}
+
+.header .navbar ul li{
+    margin: 0 40px;
+}
+
+.header .navbar ul li a{
+    color: #333;
+}
+
+/* Showcase */
+.page-wrapper{
+    position: relative;
+    top: 75px;
+    background-color: blue;
+}
+
+p{
+    font-size: 300px;
+}
+
